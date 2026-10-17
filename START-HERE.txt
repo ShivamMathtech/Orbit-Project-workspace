@@ -1,0 +1,33 @@
+ORBIT — PROJECT WORKSPACE
+Complete full-stack source + ready-to-run frontend
+
+WINDOWS: THE FASTEST WAY TO START
+1. Extract this ZIP completely. Do not run files from inside the ZIP viewer.
+2. Install Node.js 24.x from https://nodejs.org
+3. Double-click START-WINDOWS.bat.
+4. Your browser opens http://127.0.0.1:3000
+5. Create your administrator account. Choose your own email and password.
+6. Keep "Start with sample projects" checked to explore the reference-inspired UI.
+
+You do NOT need npm install, Python, MongoDB, or a separate database to run
+this prebuilt version. SQLite and the HTTP server use Node.js built-in modules.
+
+Keep the terminal window open while using Orbit. Press Ctrl+C to stop.
+Reopen START-WINDOWS.bat later: your projects and files will still be there.
+
+The example teammates are PAUSED sample accounts, not live people.
+To add a real teammate: Team > Add member > Manage team > select the account.
+No invitation email is sent. Share account credentials yourself.
+
+TO EDIT THE SOURCE
+- Frontend: src/
+- Backend: server/
+- Database schema: server/schema.sql
+- After edits, run BUILD-WINDOWS.bat, then restart START-WINDOWS.bat.
+- Build scripts need internet to install the development packages.
+
+TESTS: TEST-WINDOWS.bat
+BACKUP: stop Orbit, then run "npm run backup" from this folder.
+
+Read README.md and docs/WINDOWS-SETUP.md for troubleshooting, development,
+API usage, and deployment. The local data directory is created on first run.

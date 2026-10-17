@@ -1,0 +1,16 @@
+services:
+  orbit:
+    build: .
+    ports:
+      - "127.0.0.1:3000:3000"
+    environment:
+      HOST: 0.0.0.0
+      PORT: 3000
+      DATA_DIR: /app/data
+      PUBLIC_ORIGIN: http://localhost:3000
+      SECURE_COOKIES: "false"
+    volumes:
+      - orbit-data:/app/data
+    restart: unless-stopped
+volumes:
+  orbit-data:
